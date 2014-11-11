@@ -11,7 +11,7 @@
 </style>
 <script>
 $(function() {
-	$.getJSON("/foo/webapi/myresource", function(data) {
+	$.getJSON("/foo/webapi/foo", function(data) {
 		var grid = $('#grid tbody');
 		$.each(data, function(i, e) {
 			var row = $('<tr/>')
