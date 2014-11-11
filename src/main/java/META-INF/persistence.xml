@@ -4,7 +4,7 @@
 		<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 		<class>webapp.foo.Foo</class>
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:sqlite:/home/mattn/dev/workspace/foo/MySQLiteDB"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:sqlite:/home/mattn/dev/workspace/foo/MySQLiteDB.db"/>
 			<property name="javax.persistence.jdbc.user" value=""/>
 			<property name="javax.persistence.jdbc.password" value=""/>
 			<property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC"/>
